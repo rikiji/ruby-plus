@@ -1,4 +1,5 @@
 ruby-plus
 =========
 
-Stuff useful to develop faster.
+* Stuff useful to parse files faster
+* Japanese parsing and romanization

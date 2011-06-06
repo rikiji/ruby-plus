@@ -1,0 +1,8 @@
+#!/usr/bin/ruby1.9.1
+# -*- coding: utf-8 -*-
+
+require "chasen.o"
+
+#Chasen.getopt("-F", '(%BB %m %M)\n', "-j")
+Chasen.getopt("-F", '%m\t%y\t%P-\n')
+puts Chasen.sparse("日本語が和借りますか")
